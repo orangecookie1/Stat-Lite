@@ -1,0 +1,67 @@
+/* #222831, 393E46, 303841, 3A4750 */
+body{
+    background-color: #111111;
+    font-family: 'Montserrat', sans-serif;
+    color: #757575 !important;
+}
+p{
+    color: #757575;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+.mainSubmit{
+    background-color: #1d1d20;
+    color: #757575;
+    border-radius:5px;
+    width: 30%;
+    text-align: center;
+    /* color: rgb(0, 0, 0);*/
+    border: none;
+    border-radius: 5px;
+}
+.mainSearch{
+    background-color: #1d1d20;
+    border: none;
+    width: 104.5%;
+    /*background-color: rgba(104, 104, 104, 0.363);*/
+    margin: 10px;
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+.searchDiv{
+    background-color: #18181B !important;
+    color: #18181b;
+    border-radius: 7px;
+    font-size: 30px;
+    margin: 0px;
+    width: 1344px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 70px;
+    /*background-color: rgba(20, 20, 20, 0.822);*/
+}
+.centerDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    flex-direction: column;
+}
+button:hover{
+    background-color: rgba(104, 104, 104, 0.363); /* change to your desired color */
+    color: white; /* change to your desired color */
+  }
+.mainNavbar{
+    background-color: #18181B !important;
+    color: #757575 !important;
+    width: 100%;
+}
+.mainForm{
+    display: grid;
+    place-items: center;
+}
